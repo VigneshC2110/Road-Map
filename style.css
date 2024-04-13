@@ -41,8 +41,8 @@ body{
     border: 2px solid;
 }
 .box_hr{
-    border: 5px dotted #000;
-    border-style: none none dotted none;
+    border: 5px #000;
+    border-style: none none dashed none;
     border-top-right-radius: 22px;
     height: 1px;
     width: 38%;
@@ -103,15 +103,15 @@ ul{
     padding: 0;
 }
 .box_hrcha1{
-    border: 5px dotted #000;
-    border-style: none none dotted none;
+    border: 5px #000;
+    border-style: none none dashed none;
     border-top-right-radius: 22px;
     height: 1px;
     width: 38%;
 }
 .tech_hr {
-    border: 5px dotted #000;
-    border-style: none dotted none none;
+    border: 5px #000;
+    border-style: none dashed none none;
     height: 582px;
     position: relative;
     bottom: 52px;
@@ -125,8 +125,8 @@ ul{
     align-items: center;
 }
 .tech_hr2 {
-    border: 5px dotted #000;
-    border-style: none dotted none none;
+    border: 5px #000;
+    border-style: none dashed none none;
     height: 465px;
     position: relative;
     bottom: 54px;
