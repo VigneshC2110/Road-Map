@@ -1,11 +1,11 @@
 * {
-    padding: none;
-    margin: none;
     font-family: "Montserrat", sans-serif;
   }
   body {
     max-width: 1440px;
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
   .main_container {
     width: 100%;
@@ -53,6 +53,9 @@
   .box2_container,
   .box3_container{
     background-color: unset;
+  }
+  .box3_container_change{
+    width: 75%;
   }
   .box1{
     font-size: 27px;
@@ -126,4 +129,21 @@
   .margin_container3{
     margin-top: 0;
     border-top-left-radius: 4px;
+  }
+  @media only screen and (max-width: 768px){
+   .title_text{
+    font-size: 27.8px;
+   }
+   .box1_container,
+   .box2_container,
+   .box3_container{
+      width: 77%;
+   }
+   .box3_container_change{
+    width: 95%;
+   }
+   .round1,
+   .round2{
+    font-size: 14px;
+   }
   }
