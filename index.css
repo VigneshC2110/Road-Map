@@ -106,12 +106,20 @@
       padding: 0;
       display: flex;
       gap: 8px;
-      align-items: top;
+      align-items: baseline;
+      font-size: 17px;
   }
   .text2 ul span,
   .text ul span {
       width: 95%;
   }
+  p {
+    margin: 0;
+    width: max-content;
+}
+.box1change{
+  width: 448px;
+}
   .text,
   .text2{
     margin-bottom: 30px;
@@ -146,4 +154,11 @@
    .round2{
     font-size: 14px;
    }
+   .box1{
+    font-size: 20px;
+   }
+   .text2 ul,
+  .text ul {
+      font-size: 15px;
+  }
   }
