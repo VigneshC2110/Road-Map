@@ -2,6 +2,7 @@
     font-family: "Montserrat", sans-serif;
   }
   body {
+    user-select: none;
     max-width: 1440px;
     width: 100%;
     padding: 0;
@@ -15,6 +16,9 @@
   .sub_container {
     width: 80%;
   }
+  .navbar{
+    height: 94px;
+  }
   .title_text {
     margin: 0;
     color: rgb(35, 49, 62);
@@ -24,19 +28,18 @@
   }
   .title {
     margin: 0;
-    padding: 0 0 36px 0;
+    padding: 36px 0px 36px 0;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
-  }
+}
   .margin_container,
-  .margin_container3,
-  .margin_container4{
+  .margin_container3{
     width: 100%;
     background-color: transparent;
     margin-top: 60px;
-    border-top: 5px dashed black;
-    border-right: 5px dashed black;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top: 4px dashed black;
+    border-right: 4px dashed black;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     border-bottom-left-radius: 7px;
   }
   .box1_container,
@@ -53,14 +56,11 @@
   .box2_container,
   .box3_container{
     background-color: unset;
-  }
-  .box3_container_change{
-    width: 75%;
-  }
-  .box1{
+  } 
+ 
+   .box1,.box3,.box5{
     font-size: 27px;
-    width: 242px;
-    padding: 2%;  
+    padding: 10px 30px;  
     display: flex;
     font-weight: 700;
     align-items: center;
@@ -72,13 +72,16 @@
   .box1technical {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 6%;
+    justify-content: center;
   }
   .box1technical > * {
     width: 47%;
   }
   .technical1 {
     text-align: end;
+    min-width: 245px;
   }
   .technical1,
   .nontechnical1 {
@@ -88,56 +91,168 @@
   }
   .nontechnical1 {
     align-items: start;
+    min-width: 245px;
   }
-  .round1,
-  .round2 {
+  .round1 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 10px;
     padding: 1% 2%;
-    background-color: #edc0ff;
+    background-color: #DDCBFF;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .text2 ul,
-  .text ul {
-      width: 100%;
-      padding: 0;
-      display: flex;
-      gap: 8px;
-      align-items: baseline;
-      font-size: 17px;
+  .round2 {
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 1% 2%;
+    background-color: #EDC0FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .text2 ul span,
-  .text ul span {
-      width: 95%;
-  }
-  p {
-    margin: 0;
-    width: max-content;
-}
-.box1change{
-  width: 448px;
-}
-  .text,
-  .text2{
-    margin-bottom: 30px;
-  }
-  .margin_container2{
+  .text2 ul,.text ul {
     width: 100%;
-    margin-top: 2px;
-    background-color: transparent;
-    border-top: 5px dashed black;
-    border-left: 5px dashed black;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 6px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: flex-end;
+    gap: 20;
+}
+.text,.text2{
+  font-size: 17px;
+}
+  span {
+    width: 100%;
   }
+.text,
+.text2{
+  margin-bottom: 30px;
+}
+.margin_container2 {
+  width: 98%;
+  margin-top: -3px;
+  background-color: transparent;
+  border-top: 4px dashed black;
+  border-left: 4px dashed black;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 40px;
+  margin-left: -5px;
+}
+.margin_container4 {
+  padding: 44px 0px;
+}
+
+
   .margin_container3{
     margin-top: 0;
     border-top-left-radius: 4px;
   }
+
+  .box2_container {
+    background-color: unset;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box2,.box4{
+  font-size: 27px;
+  padding: 15px 15px; 
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDA68;
+  border-radius: 24px;
+  border: 2px solid;
+}
+
+.box3_container {
+    background-color: unset;
+    border-radius: 20px; 
+}
+
+.margin_container4 {
+
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.box4_container.box4_container_change {
+  display: flex;
+  justify-content: center;
+}
+
+.box6{
+  font-size: 27px;
+  width: 242px;
+  padding: 2%;  
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  background-color: #DDCBFF;
+  border-radius: 24px;
+  border: 2px solid;
+  text-align: center;
+}
+
+div#container_3 {
+  position: relative; 
+  width: 100%; 
+}
+
+
+div#container_3::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 49%;
+  width: 49%;
+  border-bottom: 4px dashed black;
+}
+
+.margin_container4 {
+  position: relative;
+  width: 100%;
+}
+
+.margin_container4::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 48%;
+  height: 27%;
+  width: 11px;
+  border-right: 4px dashed black;
+  transform: rotate(180deg);
+  border-radius: 6px 0px;
+}
+
+.margin_container4 {
+  padding: 65px 10px;
+}
+img {
+  padding: 3px;
+}
+
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.image img{
+  width: 100%;
+}
+
   @media only screen and (max-width: 768px){
    .title_text{
     font-size: 27.8px;
@@ -154,11 +269,48 @@
    .round2{
     font-size: 14px;
    }
-   .box1{
-    font-size: 20px;
-   }
-   .text2 ul,
-  .text ul {
-      font-size: 15px;
   }
+  @media only screen and (max-width: 640px){
+    
+    .box1,.box3,.box5,.box2,.box4{
+      font-size: 18px;
+    }
+    .box2,.box4{
+      padding: 15px 15px; 
+    }
+    .technical1,
+  .nontechnical1{
+    text-align: center;
   }
+  .nontechnical1{
+    align-items: center;
+  }
+  }  
+  @media only screen and (max-width: 400px){
+    .box1_container,
+    .box2_container,
+    .box3_container{
+       width: 93%;
+    }
+    div#container_3::after {
+      left: 52%;
+      width: 41%;
+  }
+
+.margin_container4::before {
+  left: 46%;
+  }
+  .box1_container, .box2_container, .box3_container {
+    bottom: 26px;
+}
+.margin_container2 {
+  margin-top: -5px;
+  margin-left: -14px;
+}
+.margin_container3 {
+  margin-top: -2px;
+}
+
+  }
+
+  
