@@ -338,8 +338,8 @@ div#container_3::after {
        width: 93%;
     }
     div#container_3::after {
-      left: 65%;
-    width: 22%;
+    left: 61%;
+    width: 28%;
   }
 
 .margin_container5::before {
@@ -360,6 +360,10 @@ div#container_3::after {
 .round1, .round2 {
   font-size: 12px;
   margin-right: 10px;
+}
+div#container_3::after {
+  left: 65%;
+width: 22%;
 }
 }
   }
