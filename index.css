@@ -134,7 +134,7 @@
   margin-bottom: 30px;
 }
 .margin_container2 {
-  width: 98%;
+  width: 97%;
   margin-top: -3px;
   background-color: transparent;
   border-top: 4px dashed black;
@@ -162,7 +162,7 @@
 }
 .box2,.box4{
   font-size: 27px;
-  padding: 15px 15px; 
+  padding: 10px 30px; 
   display: flex;
   font-weight: 700;
   align-items: center;
@@ -251,6 +251,7 @@ img {
 }
 .image img{
   width: 100%;
+  max-width: 600px;
 }
 
   @media only screen and (max-width: 768px){
@@ -274,9 +275,6 @@ img {
     
     .box1,.box3,.box5,.box2,.box4{
       font-size: 18px;
-    }
-    .box2,.box4{
-      padding: 15px 15px; 
     }
     .technical1,
   .nontechnical1{
@@ -310,7 +308,23 @@ img {
 .margin_container3 {
   margin-top: -2px;
 }
-
+@media only screen and (max-width: 350px){
+.round1, .round2 {
+  font-size: 12px;
+  margin-right: 10px;
+}
+}
   }
-
+  @media only screen and (max-width: 320px){
+    .box1_container,
+    .box3_container{
+       width: 100%;
+    }
+    .box2_container{
+      width: 108%;
+    }
+    .text2 ul, .text ul {
+      gap: 0;
+    }
+  }
   
