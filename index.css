@@ -390,6 +390,9 @@ img {
 }
 
 @media only screen and (max-width: 640px) {
+  .box1_container {
+    width: 76%;
+}
   .margin_container::before {
     width: 14px;
     height: 29px;
@@ -471,7 +474,9 @@ html{
     left: 64%;
     width: 27%;
   }
-
+  .box1_container {
+    width: 88%;
+}
 
   .margin_container2::before,
   .margin_container4::before {
