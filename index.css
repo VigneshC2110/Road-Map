@@ -70,14 +70,17 @@
   }
   .box2_container,
   .box3_container{
+    background-color: unset;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: unset;
+    background-color: white;
     position: relative;
     bottom: 35px;
   } 
- 
+  .box3_container{
+    right: 30px;
+  }
    .box1,.box3,.box5{
     font-size: 27px;
     padding: 10px 30px;  
@@ -217,7 +220,6 @@
 .box3_container {
     background-color: unset;
     border-radius: 20px; 
-    right: 37px;
 }
 
 .margin_container5 {
@@ -315,6 +317,9 @@ img {
 div#container_3::after {
   left: 51%;
 }
+   .box1_container{
+      width: 77%;
+   }
    .round1,
    .round2{
     font-size: 14px;
@@ -334,6 +339,9 @@ div#container_3::after {
   }
   }  
   @media only screen and (max-width: 400px){
+    .box1_container{
+       width: 93%;
+    }
     div#container_3::after {
       left: 57%;
       width: 32%;
@@ -365,6 +373,9 @@ width: 22%;
 }
   }
   @media only screen and (max-width: 320px){
+    .box1_container{
+       width: 100%;
+    }
     .text2 ul, .text ul {
       gap: 0;
     }
