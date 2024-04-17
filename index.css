@@ -60,7 +60,7 @@
     z-index: 2;
   }
   .box1_container{
-    width: 66%;
+    width: 63%;
     display: flex;
     justify-content: end;
     background-color: white;
@@ -79,7 +79,7 @@
     bottom: 35px;
   } 
   .box3_container{
-    right: 30px;
+    right: 36px;
   }
    .box1,.box3,.box5{
     font-size: 27px;
@@ -143,8 +143,6 @@
     gap: 10px;
     align-items: flex-start;
     justify-content: center;
-    text-align: flex-end;
-    gap: 20;
 }
 .text,.text2{
   font-size: 17px;
