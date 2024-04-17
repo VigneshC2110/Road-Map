@@ -1,3 +1,6 @@
+html {
+  font-size: 7.5px;
+}
 * {
     font-family: "Montserrat", sans-serif;
   }
@@ -22,7 +25,7 @@
   .title_text {
     margin: 0;
     color: rgb(35, 49, 62);
-    font-size: 48px;
+    font-size: 6rem;
     font-weight: bold;
     text-align: center;
   }
@@ -82,7 +85,7 @@
     right: 36px;
   }
    .box1,.box3,.box5{
-    font-size: 27px;
+    font-size: 3.6rem;
     padding: 10px 30px;  
     display: flex;
     font-weight: 700;
@@ -95,7 +98,6 @@
   .box1technical {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     gap: 6%;
     justify-content: center;
   }
@@ -104,7 +106,6 @@
   }
   .technical1 {
     text-align: end;
-    min-width: 245px;
   }
   .technical1,
   .nontechnical1 {
@@ -114,11 +115,10 @@
   }
   .nontechnical1 {
     align-items: start;
-    min-width: 245px;
   }
   .round1 {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.9rem;
     border-radius: 10px;
     padding: 1% 2%;
     background-color: #DDCBFF;
@@ -128,7 +128,7 @@
   }
   .round2 {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2rem;
     border-radius: 10px;
     padding: 1% 2%;
     background-color: #EDC0FF;
@@ -145,11 +145,11 @@
     justify-content: center;
 }
 .text,.text2{
-  font-size: 17px;
+  font-size: 2.28rem;
 }
-  span {
-    width: 100%;
-  }
+span {
+  width: 100%;
+}
 .text,
 .text2{
   margin-bottom: 30px;
@@ -188,23 +188,18 @@
 .margin_container5 {
   padding: 44px 0px;
 }
-
-
 .margin_container3 {
   margin-top: 26px;
   margin-left: 31px;
   width: 98%;
 }
-
-
-
-  .box2_container {
-    background-color: unset;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+.box2_container {
+  background-color: unset;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .box2,.box4{
-  font-size: 27px;
+  font-size: 3.6rem;
   padding: 10px 30px; 
   display: flex;
   font-weight: 700;
@@ -247,7 +242,7 @@
 }
 
 .box6{
-  font-size: 27px;
+  font-size: 3.6rem;
   width: 242px;
   padding: 2%;  
   display: flex;
@@ -259,14 +254,10 @@
   border: 2px solid;
   text-align: center;
 }
-
 div#container_3 {
   position: relative; 
   width: 100%; 
 }
-
-
-
 div#container_3::after {
   content: "";
   position: absolute;
@@ -280,22 +271,26 @@ div#container_3::after {
   width: 100%;
 
 }
-
-
-
 .margin_container5 {
   padding: 65px 10px;
 }
 img {
   padding: 3px;
+  width: 2rem;
 }
-
-
 .image{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.change {
+  position: relative;
+  right: 30px;
+}
+.change2 {
+  position: relative;
+  right: 15px;
 }
 .image img{
   width: 100%;
@@ -308,35 +303,20 @@ img {
   }
 }
   @media only screen and (max-width: 768px){
-   .title_text{
-    font-size: 27.8px;
-   }
-
+html{
+  font-size: 4.5px;
+}
 div#container_3::after {
   left: 51%;
 }
    .box1_container{
       width: 77%;
    }
-   .round1,
-   .round2{
-    font-size: 14px;
-   }
   }
-  @media only screen and (max-width: 640px){
-    
-    .box1,.box3,.box5,.box2,.box4{
-      font-size: 18px;
-    }
-    .technical1,
-  .nontechnical1{
-    text-align: center;
+  @media only screen and (max-width: 450px){
+    html {
+      font-size: 3.5px;
   }
-  .nontechnical1{
-    align-items: center;
-  }
-  }  
-  @media only screen and (max-width: 400px){
     .box1_container{
        width: 93%;
     }
@@ -359,23 +339,21 @@ div#container_3::after {
   margin-top: 26px;
   margin-left: 24px;
 }
+@media only screen and (max-width: 360px){
+  html{
+    font-size: 2.8px;
+  }
+}
 @media only screen and (max-width: 350px){
-.round1, .round2 {
-  font-size: 12px;
-  margin-right: 10px;
-}
-div#container_3::after {
-  left: 65%;
-width: 22%;
-}
+  div#container_3::after {
+    left: 65%;
+    width: 22%;
+  }
 }
   }
-  @media only screen and (max-width: 320px){
+  @media only screen and (max-width: 325px){
     .box1_container{
        width: 100%;
-    }
-    .text2 ul, .text ul {
-      gap: 0;
     }
   }
   
