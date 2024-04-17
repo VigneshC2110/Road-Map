@@ -54,9 +54,9 @@ html {
     position: absolute;
     bottom: -30px;
     right: -4px;
-    width : 32px;
-    height : 36px;
-    border : 4px dashed black;
+    width: 25px;
+    height: 33px;
+    border: 4px dashed black;
     border-bottom-right-radius: 40px;
     border-left: none;
     border-top: none;
@@ -385,7 +385,7 @@ img {
     left: 51%;
   }
   .box1_container {
-    width: 77%;
+    width: 400px;
   }
 }
 
@@ -413,7 +413,7 @@ img {
 }
 @media only screen and (max-width: 450px){
   .box1_container {
-    width: 80%;
+    width: 273px;
 }
   html {
     font-size: 3.5px;
@@ -445,8 +445,8 @@ img {
 }
 @media only screen and (max-width: 400px) {
   .box1_container {
-    width: 93%;
-  }
+    width: 243px;
+}
   div#container_3::after {
     left: 57%;
     width: 32%;
@@ -475,7 +475,7 @@ html{
     width: 27%;
   }
   .box1_container {
-    width: 88%;
+    width: 238px;
 }
 
   .margin_container2::before,
