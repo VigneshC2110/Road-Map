@@ -391,7 +391,7 @@ img {
 
 @media only screen and (max-width: 640px) {
   .box1_container {
-    width: 76%;
+    width: 350px;
 }
   .margin_container::before {
     width: 14px;
