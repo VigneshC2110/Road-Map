@@ -478,20 +478,6 @@ html{
     width: 238px;
 }
 
-  .margin_container2::before,
-  .margin_container4::before {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: -4px;
-    width: 27px;
-    height: 39px;
-    border: 4px dashed black;
-    border-bottom-left-radius: 44px;
-    border-right: none;
-    border-top: none;
-    z-index: 2;
-  }
   .margin_container5::before {
     left: 49%;
   }
