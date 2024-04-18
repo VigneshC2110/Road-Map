@@ -433,6 +433,9 @@ img {
   html {
     font-size: 3.5px;
 }
+.text,.text2{
+  font-size: 3.4rem;
+}
 .box1, .box2, .box3, .box4, .box5, .box6 {
   font-size: 3.6rem;
   width: 140px;
