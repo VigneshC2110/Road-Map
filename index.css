@@ -340,8 +340,8 @@ div#container_3::after {
   content: "";
   position: absolute;
   bottom: -30px;
-  left: 53%;
-  width: 44%;
+  left: 54%;
+  width: 43%;
   border-bottom: 4px dashed black;
 }
 .margin_container5 {
@@ -404,9 +404,12 @@ img {
   div#container_3::after {
     left: 51%;
   }
+  .text,.text2{
+    font-size: 2.8rem;
+  }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 660px) {
   .margin_container::before {
     width: 14px;
     height: 29px;
@@ -415,6 +418,15 @@ img {
   .margin_container4::before {
     width: 37px;
     height: 36px;
+  }
+  .technical1,
+  .nontechnical1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .nontechnical1 {
+    align-items: center;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 510px){
