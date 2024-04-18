@@ -72,11 +72,25 @@ html {
     top: -26px;
     height: 43px;
 }
-  .box1_container,
-  .box2_container,
-  .box3_container{
+.box1_container{
+  background-color: unset;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  bottom: 35px;
+} 
+.box3_container{
+  right: 36px;
+  width: 104%;
+}
+.box2_container{
+  width: 103%;
+}
+.box2_container,
+.box3_container{
     background-color: unset;
-    width: 100%;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -85,9 +99,6 @@ html {
   } 
   .box1_container{
     background-color: unset;
-  }
-  .box3_container{
-    right: 36px;
   }
    .box1,.box3,.box5{
     font-size: 3.6rem;
