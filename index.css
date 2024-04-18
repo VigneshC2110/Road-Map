@@ -410,6 +410,9 @@ img {
 }
 
 @media only screen and (max-width: 660px) {
+  img{
+    padding: 0;
+  }
   .margin_container::before {
     width: 14px;
     height: 29px;
