@@ -153,7 +153,8 @@ html {
     align-items: baseline;
     justify-content: center;
     margin: 0;
-    line-height: 24px;
+    letter-spacing: -1px;
+    line-height: 28px;
 }
 .text,.text2{
   font-size: 2.28rem;
@@ -262,8 +263,6 @@ html {
   border-top: none;
   z-index: 2;
 }
-
-
   .box2_container {
     background-color: unset;
     border-bottom-left-radius: 20px;
@@ -281,7 +280,6 @@ html {
   border-radius: 24px;
   border: 2px solid;
 }
-
 .box3_container {
     background-color: unset;
     border-radius: 20px; 
@@ -313,7 +311,6 @@ html {
   display: flex;
   justify-content: center;
 }
-
 .box6{
   font-size: 3.6rem;
   width: 242px;
@@ -327,14 +324,10 @@ html {
   border: 2px solid;
   text-align: center;
 }
-
 div#container_3 {
   position: relative; 
   width: 100%; 
 }
-
-
-
 div#container_3::after {
   content: "";
   position: absolute;
@@ -354,8 +347,6 @@ div#container_3::after {
 img {
   width: 2rem;
 }
-
-
 .image{
   display: flex;
   align-items: center;
