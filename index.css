@@ -402,6 +402,9 @@ img {
   img{
     padding: 0;
   }
+  .text2 ul, .text ul {
+    letter-spacing: 0px;
+}
   .margin_container::before {
     width: 14px;
     height: 29px;
