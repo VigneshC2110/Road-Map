@@ -424,10 +424,6 @@ img {
     align-items: center;
     justify-content: center;
   }
-  .nontechnical1 {
-    align-items: center;
-    justify-content: center;
-  }
 }
 @media only screen and (max-width: 510px){
   .margin_container2::before, .margin_container4::before {
