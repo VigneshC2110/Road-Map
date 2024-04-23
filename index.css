@@ -341,8 +341,8 @@ div#container_3::after {
   content: "";
   position: absolute;
   bottom: -30px;
-  left: 54%;
-  width: 43%;
+  left: 55%;
+  width: 42%;   
   border-bottom: 4px dashed black;
 }
 .margin_container5 {
@@ -379,7 +379,7 @@ img {
 
 @media only screen and (max-width: 800px) {
   div#container_3::after {
-    left: 51%;
+    left: 53%;
   }
 }
 
@@ -399,9 +399,6 @@ img {
     width: 190px;
     height: 46px;
 }
-  div#container_3::after {
-    left: 51%;
-  }
   .text,.text2{
     font-size: 2.8rem;
   }
@@ -429,6 +426,9 @@ img {
   }
   .technical1 {
     align-items: end;
+  }
+  div#container_3::after {
+    left: 51%;
   }
   .nontechnical1{
     align-items: start;
@@ -468,8 +468,8 @@ img {
   width: 100%;
 }
   div#container_3::after {
-    left: 57%;
-    width: 32%;
+    left: 60%;
+    width: 30%;
 }
 .margin_container5::before {
   left: 46%;
@@ -512,7 +512,7 @@ html{
 
   div#container_3::after {
     left: 64%;
-    width: 27%;
+    width: 23%;
   }
 
   .margin_container5::before {
