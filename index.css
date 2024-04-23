@@ -442,7 +442,7 @@ img {
 }
 @media only screen and (max-width: 510px){
   .margin_container2::before, .margin_container4::before {
-    width: 31px;
+    width: 67px;
 }
   div#container_3::after {
     left: 49%;
