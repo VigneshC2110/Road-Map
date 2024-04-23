@@ -415,10 +415,6 @@ img {
     letter-spacing: 0px;
 }
 
-.text2.text_change {
-  position: relative;
-  left: -34px;
-}
   .margin_container::before {
     width: 14px;
     height: 29px;
@@ -431,10 +427,17 @@ img {
   .box1technical > * {
     width: 100%;
   }
-  .technical1,
-  .nontechnical1 {
-    align-items: center;
-    justify-content: center;
+  .technical1 {
+    align-items: end;
+  }
+  .nontechnical1{
+    align-items: start;
+    position: relative;
+    align-items: start;
+    left: 12px;
+  }
+  .change3{
+    left: 20px;
   }
 }
 @media only screen and (max-width: 510px){
@@ -455,14 +458,6 @@ img {
 }
 .text,.text2{
   font-size: 3.4rem;
-}
-.text2{
-  position: relative;
-  left: 20px;
-}
-.text2.text_change {
-  position: relative;
-  left: -10px;
 }
 .box1, .box2, .box3, .box4, .box5, .box6 {
   font-size: 3.6rem;
