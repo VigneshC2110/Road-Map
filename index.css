@@ -434,10 +434,10 @@ img {
     align-items: start;
     position: relative;
     align-items: start;
-    left: 12px;
+    left: 20px;
   }
   .change3{
-    left: 20px;
+    left: 9px;
   }
 }
 @media only screen and (max-width: 510px){
