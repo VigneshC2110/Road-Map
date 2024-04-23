@@ -416,6 +416,11 @@ img {
     width: 14px;
     height: 29px;
 }
+  .margin_container2::before,
+  .margin_container4::before {
+    width: 37px;
+    height: 36px;
+  }
   .box1technical > * {
     width: 100%;
   }
