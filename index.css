@@ -264,7 +264,7 @@ html {
   position: absolute;
   bottom: -30px;
   right: -4px;
-  width: 25px;
+  width: 33px;
   height: 33px;
   border: 4px dashed black;
   border-bottom-right-radius: 40px;
@@ -418,7 +418,7 @@ img {
 }
   .margin_container2::before,
   .margin_container4::before {
-    width: 37px;
+    width: 26px;
     height: 36px;
   }
   .box1technical > * {
@@ -442,7 +442,7 @@ img {
 }
 @media only screen and (max-width: 510px){
   .margin_container2::before, .margin_container4::before {
-    width: 67px;
+    width: 32px;
 }
   div#container_3::after {
     left: 49%;
