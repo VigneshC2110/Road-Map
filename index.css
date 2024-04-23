@@ -441,7 +441,11 @@ img {
   }
 }
 @media only screen and (max-width: 510px){
-  .margin_container2::before, .margin_container4::before {
+  .margin_container2::before {
+    width: 36px;
+    height: 32px;
+}
+.margin_container4::before {
     width: 32px;
 }
   div#container_3::after {
@@ -528,21 +532,6 @@ html{
   div#container_3::after {
     left: 64%;
     width: 27%;
-  }
-
-  .margin_container2::before,
-  .margin_container4::before {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: -4px;
-    width: 27px;
-    height: 39px;
-    border: 4px dashed black;
-    border-bottom-left-radius: 44px;
-    border-right: none;
-    border-top: none;
-    z-index: 2;
   }
   .margin_container5::before {
     left: 47%;
