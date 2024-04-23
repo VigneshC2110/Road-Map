@@ -213,7 +213,7 @@ html {
   position: absolute;
   bottom: -30px;
   left: -4px;
-  width: 37px;
+  width: 29px;
   height: 36px;
   border: 4px dashed black;
   border-bottom-left-radius: 40px;
@@ -416,11 +416,6 @@ img {
     width: 14px;
     height: 29px;
 }
-  .margin_container2::before,
-  .margin_container4::before {
-    width: 37px;
-    height: 36px;
-  }
   .box1technical > * {
     width: 100%;
   }
